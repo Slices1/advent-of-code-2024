@@ -26,17 +26,6 @@ for j in range(int(diskMap[-1])):
 # print()
 
 
-
-
-
-
-
-
-
-
-
-
-
 rightPointer = len(fileMap)-1
 # print(fileMap[lastItemPointer])
 leftPointer = 0
@@ -115,11 +104,6 @@ while filePointerLeft > 0:
 
     
 
-
-
-
-
-
 print(f"freePointerLeft: {freePointerLeft}, freePointerRight: {freePointerRight}, filePointerLeft: {filePointerLeft}, filePointerRight: {filePointerRight}")
 for item in fileMap:
     if item == -1:
@@ -127,15 +111,6 @@ for item in fileMap:
     else:
         print(item, end='')
 print()
-
-
-
-
-
-
-
-
-
 
 
 
