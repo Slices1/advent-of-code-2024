@@ -12,6 +12,7 @@ I have decided to leave the majoriy of my comments in as I think its interesting
 name input files `input-1`, `input-2` etc based on the day of the script.
 part 1 and part 2 python programs are usually in separate files, but if there is only one file then both will be in that file.
 
+exception: for day 5, you have to manually split the input file into two files input-5-1 and input-5-2. its fairly obvious where to split them.
 ## Why is there one c++ file?
 we don't talk about it (my previous algorithm was going to take 1.6 million years and I thought c++ could help ¯\_(ツ)_/¯ )
 
